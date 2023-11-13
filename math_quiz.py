@@ -10,7 +10,7 @@ def generate_random_integer(min_value, max_value):
 
 def generate_random_operator():
     """
-    Generates a random arithmetic operator from '+', '-', or '*'.
+    Generates a random operator from '+', '-', or '*'.
     """
     return random.choice(['+', '-', '*'])
     
